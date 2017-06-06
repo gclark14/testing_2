@@ -1,0 +1,20 @@
+So how do branches work?
+Well, we know some things about 'em. Branches are different dimensions in a project??
+Sorta.
+Projects give us different snapshots of the same project. Each person can 
+have one, even your grandmother is entititled to one. Recall the .0 .1 
+extensions we can add to our files to give em different editions?
+This is the same thing. If you want to break your project, break the 
+snapshot, not the actual project. 
+If you commit to a project in branch 'login', master's copy of changed files
+are not affected. When you merge, that's when master gets updated to have 
+what develop had. 
+// IF YOU DON'T COMMIT
+If you have two branches with access to the same directory and you delete 
+one of the files in that directory, both branches will lose the files. 
+// IF YOU DO COMMIT
+So, you may add files to a directory with mutliple branches, if you don't 
+commit to a particular branch then you can expect the file to be accessible
+across those branches. WHEN YOU COMMIT, you are COMMITING THAT FILE to THAT
+BRANCH. It's marriage. And it doesn't fall into the 51% - thank you.
+IF you hop out of the terminal and hop back in, status is saved. 
