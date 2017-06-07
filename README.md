@@ -1,2 +1,3 @@
 # testing_2
-testing branching
+
+Includes some basic arithmetic functions, as well as a class Collatz, which calculates the collatz conjecture. 

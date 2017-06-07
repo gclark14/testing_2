@@ -9,19 +9,19 @@ class Collatz{
 
 private: 
 	long long colNum;
-	
+	int count;	
 public: 
 	Collatz(){}
 	Collatz(int colNum){
 		this->colNum = colNum;
 		calculate();
-		cout << getColNum() << '\n';
+		cout << getCount() << '\n';
 	}
 
-	long long getColNum(){
-		return colNum;
+	int getCount(){
+		return count;
 	}
-	
+
 	void setColNum(long long colNum){
 		this->colNum = colNum;
 	}
@@ -36,11 +36,11 @@ public:
 
 	void calculate(){
 		while(colNum != 1){
+			++count;        
 			if(colNum % 2 == 0)
 				even();
 			else
 				odd();
-		        
 		}
 	}
 };
